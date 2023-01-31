@@ -16,8 +16,13 @@ public class InstantiationExample {
      * Note: Null is a special type which represents the absence of an object.
      *
      * @return any object.
+     * 
      */
-    public Object instantiateANewObject(){
-        return null;
+
+    public Object instantiateANewObject() {
+        
+        return "Hello";
+
+
     }
 }
